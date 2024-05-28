@@ -1,0 +1,202 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: justify;
+}
+
+body{
+  background-color:antiquewhite;
+}
+
+.nav {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: beige;
+}
+
+#facebook {
+  margin-left: 1150px;
+}
+
+#insta {
+  margin-left: 50px;
+}
+
+#yt{
+    margin-left: 50px;
+}
+
+.logo img{
+    margin-left: 50px;
+    height: 40px;
+    width: 200px;
+}
+
+.logo{
+    margin-top: 20px;
+}
+
+.class{
+  display: inline;
+}
+
+#user{
+  margin-left: 1300px;
+}
+
+#wishlist{
+  margin-left: 75px;
+}
+
+#cart{
+  margin-left: 75px;
+}
+
+#search{
+  margin-top: 10px;
+  margin-left: 400px;
+  width: 800px;
+}
+
+.image {
+  position: relative;
+  text-align: center;
+}
+
+#image{
+  width: 1100px;
+  height: 500px;
+  margin-top: 50px;
+}
+
+.text {
+  position: absolute;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  color: goldenrod;
+  font-family: "Marcellus", serif;
+  font-size: 20mm;
+}
+
+#tagline{
+  font-family: "Dancing Script", cursive;
+  font-size: 10mm;
+}
+
+.rectangle{
+  position: relative;
+  left: 85px;
+  width:90%;
+  height: 200px;
+  background-color: wheat ;
+}
+
+.text2{
+  position: absolute;
+  top: 45px;
+  left: 200px;
+  font-family: "Quicksand", sans-serif;
+  font-size: x-large;
+  color:brown;
+}
+
+.ser{
+  position: relative;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.service{
+  font-size: xx-large;
+}
+
+.serv{
+  display: flex;
+  align-items: center;
+  font-size: x-large;
+}
+
+#hundred{
+  margin-left: 400px;
+}
+
+#hundred2{
+  margin-left: 350px;
+}
+
+#return{
+  margin-left: 300px;
+}
+
+#return2{
+  margin-left: 200px;
+}
+
+#delivery{
+  margin-left: 300px;
+}
+
+#delivery2{
+  margin-left: 200px;
+}
+
+.gallery{
+  position: relative;
+  text-align: center;
+  font-size: xx-large;
+}
+
+.watch{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left,
+.right,
+.center{
+  width: 340px; 
+  height: 340px; 
+}
+
+.left-photo,
+.right-photo {
+  flex: 1; 
+}
+
+.center-photo {
+  order: 1;  
+}
+
+.footer{
+  display: flex;
+  margin-top: 80px;
+  background-color: black;
+  color: white;
+}
+
+.column {
+  margin-left: 150px;
+  width: 30%; 
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 5px;
+  margin-top: 5px; 
+}
+
+.copyright{
+  background-color: gray;
+  margin-left: 600px;
+  margin-top: 10px;
+  font-size: larger;
+}
